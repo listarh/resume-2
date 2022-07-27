@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Aliaksandr Fedarenka</title>
+        <meta name="description" content="This is my CV"/>
+        <meta
+            name="keywords"
+            content="photo, gallery, Aliaksandr, Fedarenka, Junior, Development, Front-End"/>
+    </head>
+    <link rel="stylesheet" href="styles.css">
+    <body>
+        <header>
+            <img src="photo.jpg" width="255"></img>
+            <p class="head-name">Александр Федоренко</p>
+            <p class="position">
+                Junior Front-End Development</p>
+        </header>
+        <article id="job">
+            <strong class="topic">Опыт работы</strong>
+            <table class="job-list" width="500">
+                <!-- <thead align="left"> <tr> <th>Фирма</th> <th>Должность</th> <th>Год</th>
+                </tr> </thead> -->
+                <tbody align="left">
+                    <tr>
+                        <td>Youtube</td>
+                        <td>Content maker</td>
+                        <td>2018-2020</td>
+                    </tr>
+                    <tr>
+                        <td>EPAM</td>
+                        <td>Junior Front-End Development</td>
+                        <td>2020-2021</td>
+                    </tr>
+                    <tr>
+                        <td>Codzilla</td>
+                        <td>Junior Front-End Development</td>
+                        <td>2021-now</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+
+        <article id="hobbies">
+            <strong class="topic">Мои хобби</strong>
+            <ul class="hobby-list">
+                <li>музыка</li>
+                <li>аниме</li>
+                <li>велосипед</li>
+                <li>научные сериалы</li>
+            </ul>
+            <p>
+                Так же я занимаюсь фотографией.
+                <br>У меня есть свой
+                <em>Instagram</em>
+            </p>
+        </article>
+
+        <article id="links">
+            <tbody>
+                <tr>
+                    <td>
+                        <a href="#footer"><img class="arrow-down" src="arrow-down.png"></a>
+                    </td>
+                    <td>
+                        <strong class="topic">Мои социальные сети</strong>
+                        <br>
+                        <a href="https://www.instagram.com/listarh_god/" target="_blank">Instagram</a>
+                        |
+                        <a href="https://vk.com/listarh_92" target="_blank">VKontakte</a>
+                        |
+                        <a
+                            href="https://www.tiktok.com/@listarhlive?traffic_type=others&referer_url=amp_listarh&referer_video_id=6965136972289428742"
+                            target="_blank">
+                            TikTok
+                        </a>
+
+                    </td>
+                </tr>
+            </tbody>
+
+        </article>
+
+        <footer id="footer">
+            <strong class="contact_topic">Контакт со мной</strong>
+            <br>
+            <br>
+
+            <div>
+                <label for="name">Имя:</label>
+                <input type="name" id="name" placeholder="введите свое имя"/>
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="example@mail.com"/>
+            </div>
+            <br/>
+
+            <div>
+                <label for="message">Ваше сообщение:</label>
+
+                <br/>
+
+                <textarea
+                    type="message"
+                    id="message"
+                    cols="28"
+                    rows="10"
+                    placeholder="Введите ваше сообщение..."></textarea>
+            </div>
+
+            <button type="submit" class="send_button">Отправить</button>
+            <br>
+            <br>
+        </footer>
+    </body>
+</html>
